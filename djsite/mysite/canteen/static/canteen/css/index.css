@@ -1,0 +1,39 @@
+
+    body{
+    font-family: "Montserrat";
+    }
+
+    .main{
+    margin-bottom: 50px;
+    }
+
+
+    .about{
+    padding: 50px 50px;
+    }
+
+    a{
+        color: darkgrey;
+        text-decoration:none;
+        cursor: pointer;
+        font-size: 23px;
+        font-weight:300;
+        line-height:21.6px;
+    }
+    a:hover{
+    color:darkgrey;
+    text-decoration:none;
+    }
+
+    .carousel-inner{
+    text-align: center;
+    }
+
+    .carousel-inner img {
+	filter: brightness(40%);
+}
+
+
+.carousel{
+margin:15px;
+}

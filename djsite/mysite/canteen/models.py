@@ -1,0 +1,17 @@
+from django.contrib.auth.models import User
+from django.db import models
+
+from account.models import Account
+from drink.models import Drink
+from eat.models import Eat
+
+
+class SalesOrder(models.Model):
+    description = models.CharField(max_length=255)
+    amount = models.IntegerField()
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null = True) # 1-*
+    food = models.ManyToManyField(Eat) # *-*
+    drink = models.ManyToManyField(Drink) # *-*
+    account = models.OneToOneField(Account, on_delete=models.CASCADE, null=True)  # 1-1
+    def __str__(self):
+        return self.account
