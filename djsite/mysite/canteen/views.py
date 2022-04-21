@@ -10,8 +10,8 @@ def index(request):
     return render(request, 'canteen/index.html')
 
 
-def login(request):
-    return render(request, 'canteen/login.html')
+def account(request):
+    return render(request, 'canteen/account.html')
 
 
 def pages(request, pid): #HTTPRequest

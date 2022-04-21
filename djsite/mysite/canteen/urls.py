@@ -6,10 +6,11 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    path('', index), # http://127.0.0.1:8000
+    path('', index),
+    path('home', index, name='home'),
     path('page/<int:pid>/', pages, name='page'), # http://127.0.0.1:8000/page/1
     path('about-us', about, name='about'),
-    path('login', login, name='login'),
+    path('account', account, name='account'),
     path('order', orders_page, name='orders'),
     path('menu', menu, name='menu'),
     path('info_order', info_order, name='info_order'),
@@ -19,6 +20,6 @@ urlpatterns = [
 
 
 if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

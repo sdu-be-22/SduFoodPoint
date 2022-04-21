@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'eat',
     'drink',
     'account',
+    'phonenumber_field',
 ]
 
 MIDDLEWARE = [
