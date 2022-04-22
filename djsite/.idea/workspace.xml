@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c831041-832f-4da9-9edd-d1c62d46bf15" name="Changes" comment="new commit">
-      <change afterPath="$PROJECT_DIR$/mysite/canteen/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/canteen/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/canteen/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/canteen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/canteen/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650519712108</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new commit">
+      <created>1650615164015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650615164016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
