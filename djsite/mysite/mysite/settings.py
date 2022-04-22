@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'drink',
     'account',
     'phonenumber_field',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -139,3 +140,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = "/images/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "canteen/static/canteen/images")
 
+
+CRISPY_TEMPLATES_PACK = 'bootstrap4'

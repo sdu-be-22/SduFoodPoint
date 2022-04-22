@@ -14,3 +14,7 @@ class CommentForm(ModelForm):
             })
 
         }
+
+
+class UserRegisterForm:
+    pass
