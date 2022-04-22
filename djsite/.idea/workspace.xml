@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c831041-832f-4da9-9edd-d1c62d46bf15" name="Changes" comment="new commit" />
+    <list default="true" id="7c831041-832f-4da9-9edd-d1c62d46bf15" name="Changes" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/mysite/canteen/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>

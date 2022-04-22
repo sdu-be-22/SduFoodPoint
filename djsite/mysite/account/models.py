@@ -5,7 +5,7 @@ from phonenumber_field.modelfields import PhoneNumberField
 class Account(models.Model):
     username = models.CharField(max_length= 50, unique=True)
     first_name = models.CharField(max_length= 50, unique=True)
-    last_name =models.CharField(max_length= 50, unique=True)
+    last_name = models.CharField(max_length= 50, unique=True)
     email = models.EmailField(verbose_name='email address', blank=True, max_length=60, unique=True)
     birthdate = models.DateField(verbose_name='birthday')
     have_allergies = models.BooleanField(default=True)

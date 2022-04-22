@@ -1,7 +1,8 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 # Create your views here.
 from canteen.models import *
+from .forms import CommentForm
 from .models import Drink
 from django.db.models import Q
 
@@ -63,3 +64,25 @@ def drink(request):
     else:
         drin = Drink.objects.all()
     return render(request, 'canteen/drink.html', {"pics": drin})
+
+
+def abou(request):
+    new =Comment.objects.order_by('-id')
+    return render(request, 'canteen/about.html', {'news': new})
+
+def about(request):
+        error = ''
+        if request.method == 'POST':
+            form = CommentForm(request.POST)
+            if form.is_valid():
+                form.save()
+                return redirect('/news')
+            else:
+                error = 'Форма была неверной'
+
+        form = CommentForm()
+        data = {
+            'form': form,
+            'error': error
+        }
+        return render(request, 'canteen/about.html',data)
