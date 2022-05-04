@@ -1,0 +1,20 @@
+{% extends 'canteen/header.html' %}
+
+{% block content %}
+
+<h1>Login</h1>
+
+<br/><br/>
+
+<form action="" method=POST>
+    {% csrf_token %}
+
+    <input type="submit"
+           value="Submit" class="btn btn-secondary">
+
+</form>
+
+<br/><br/>
+
+{% endblock %}
+% extends 'canteen/footer.html' %}
