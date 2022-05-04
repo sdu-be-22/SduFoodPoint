@@ -12,3 +12,5 @@ urlpatterns = [
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 
+# Configure Admin Titles
+admin.site.site_header = "SduFoodPoint's Administration Page"

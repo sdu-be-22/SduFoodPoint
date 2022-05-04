@@ -7,7 +7,6 @@ from .models import Drink
 from django.db.models import Q
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm
-from .forms import UserRegisterForm
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
@@ -31,13 +30,6 @@ def account(request):
     return render(request, 'canteen/account.html', {'form': form})
 
 
-
-def create(request):
-    return render(request, 'canteen/create.html')
-
-
-def signup(request):
-    return render(request, 'canteen/signup.html')
 
 
 def signin(request):

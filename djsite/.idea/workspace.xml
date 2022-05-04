@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c831041-832f-4da9-9edd-d1c62d46bf15" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/mysite/canteen/static/canteen/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/signin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/signup.html" afterDir="false" />
+    <list default="true" id="7c831041-832f-4da9-9edd-d1c62d46bf15" name="Changes" comment="new commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/account/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/canteen/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/static/canteen/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/static/canteen/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/static/canteen/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/static/canteen/images/1_TZIw3xF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/static/canteen/images/1_Uz6LLq6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/static/canteen/images/1_evb3Ts4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/static/canteen/images/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/static/canteen/images/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/static/canteen/images/img/blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/static/canteen/images/blank.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/footer2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/header2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/templates/canteen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/canteen/templates/canteen/signup.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/canteen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/canteen/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/canteen/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db/data.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db/info.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +68,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/canteen/templates/canteen" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python\django\djsite\mysite\canteen\templates\canteen" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\django\djsite\mysite\canteen\static\canteen\images" />
       <recent name="D:\Python\django\djsite\mysite\canteen\static\canteen\css" />
       <recent name="D:\Python\django\djsite\mysite\canteen\static\canteen" />
       <recent name="D:\Python\django\djsite\mysite\canteen\static" />
@@ -95,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650616090863</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new commit">
+      <created>1650622707503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650622707503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -125,8 +149,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="new commit" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
   </component>
 </project>

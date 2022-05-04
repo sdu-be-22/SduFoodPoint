@@ -19,8 +19,6 @@ urlpatterns = [
     path('info_order', info_order, name='info_order'),
     path('eat', eat),
     path('drink', drink, name = 'drink'),
-    path('create', create, name = 'create'),
-    path('signup', signup, name = 'signup'),
     path('signin', signin, name = 'signin'),
 ]
 
