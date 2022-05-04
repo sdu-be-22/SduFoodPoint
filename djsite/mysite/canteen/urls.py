@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('', views.index, name = "home"),
-    #path('home', index, name='home'),
+    path('home', index, name='home'),
     path('page/<int:pid>/', pages, name='page'), # http://127.0.0.1:8000/page/1
     path('about-us',views.abou, name='about'),
     path('account', views.account, name='account'),

@@ -141,4 +141,4 @@ MEDIA_URL = "/images/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "canteen/static/canteen/images")
 
 
-CRISPY_TEMPLATES_PACK = 'bootstrap4'
+CRISPY_TEMPLATES_PACK = 'bootstrap5'
