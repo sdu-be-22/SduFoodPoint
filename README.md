@@ -8,4 +8,3 @@
 #### -Kabilzhan Aruzhan 200103279@stu.sdu.edu.kz
 #### -Ainel Yermekova  200103205@stu.sdu.edu.kz
 #### -Azretaly Tarazi 200103456@stu.sdu.edu.kz
-#### -Nurlybek Mendigaliyev
