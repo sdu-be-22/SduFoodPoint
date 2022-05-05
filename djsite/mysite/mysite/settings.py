@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'drink',
     'account',
     'phonenumber_field',
-    'crispy_forms',
 ]
 
 MIDDLEWARE = [

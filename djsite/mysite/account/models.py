@@ -14,4 +14,4 @@ class Account(models.Model):
     image = models.ImageField(upload_to="img/%y", null = True, blank=True, default='blank.png')
 
     def __str__(self):
-        return self.user.__str__()
+        return str(self.user)

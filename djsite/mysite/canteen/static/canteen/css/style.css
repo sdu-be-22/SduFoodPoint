@@ -37,3 +37,19 @@
 .carousel{
 margin:15px;
 }
+
+.btn1{
+    background-color: orange;
+    border-color: #f1933c;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 200;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1 px solid transparent;
+    padding:2px;
+    margin-bottom:2px;
+}
